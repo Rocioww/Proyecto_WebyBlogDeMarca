@@ -10,16 +10,136 @@
 
 }
 
-#colecciones img {
-    max-width: 100%;
-    height: auto;
+#bestsellers {
+    padding: 2em 4em;
+    padding-top: 3em;
 }
+
+#productGallery {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background: rgba(255, 255, 255, 0.293);
+    padding: 0 5vw 0 5vw;
+   
+}
+.producto{
+    max-width: 33%;
+    margin:2em;
+}
+.cuadro{
+    width: 100%;
+    border: 2px solid #0929D0;
+
+    background-color: rgba(199, 208, 255, 0.35);
+
+    height: 20em;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cuadro>.shoppingUtil {
+    display: flex;
+    align-items: right;
+    height: 5vh;
+}
+
+.cuadro>.shoppingUtil>img {
+    display: flex;
+    justify-content: space-between;
+align-items: right;
+    width: auto;
+    max-height: 2.5em;
+    object-fit: contain;
+    padding-top: .5em;
+    padding-left: .5em;
+}     
+
+.cuadro>.productImage {
+    max-width: 100%;
+    height: 17em;
+    object-fit: contain;
+    transform: translate(0em, -5em);
+    margin-bottom: -9em;
+}
+
+.cuadro>.productInfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product>.productInfo>div>p {
+    font-size: .75em;
+    margin: 0;
+    padding-right: 1em;
+}
+
+.productInfo {
+    margin-top: 5%
+}
+
+.product>.productName {
+    font-family:;
+    color: #0929D0;
+    font-size: .7em;
+    padding-left: .5em;
+    margin-bottom: 0;
+}
+
+.product>.productDescription {
+    font-size: .7em;
+    padding: 0 .5em 0 .5em;
+}
+
+#carouselContainer {
+    position: relative;
+    overflow: hidden;
+  }
+
+  #productGallery {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  #prevButton,
+  #nextButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #0929CF;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    border-radius: 100000px;
+    border-width: 1.5px;
+    border-color: #0929CF;
+    padding: 0.1% 0.9%;
+    color: white;
+  }
+
+  #prevButton {
+    left: 4%;
+  }
+
+  #nextButton {
+    right: 4%;
+  }
 
 #colecciones {
     padding: 2em 4em;
     padding-top: 3em;
     background-color: #0929CF;
 }
+
+#colecciones img {
+    max-width: 100%;
+    height: auto;
+}
+
+
 
 .fst-italic {
     margin-bottom: 1em;
@@ -37,6 +157,8 @@
     border-radius: 40px;
     margin-bottom: 2%;
     transition: all 0.35s;
+    margin-left: 2%;
+    margin-right: 2%;
 }
   
 .figure {
@@ -64,6 +186,8 @@
     border-radius: 40px;
     margin-bottom: 2%;
     transition: all 0.35s;
+    margin-left: 2%;
+    margin-right: 2%;
 }
   
 .services1:hover {
@@ -284,3 +408,37 @@ button {
       scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
+#tiendas {
+    padding: 2em 4em;
+    padding-top: 3em;
+}
+
+.galeriatienda {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-fluid {
+    max-width: 90% !important;
+    border-radius: 10%;
+    border: 5px solid #0929CF;
+}
+
+.col-md-12 {
+    display: flex;
+    margin-top: 3%;
+    flex-direction: column;
+}
+
+.text-light {
+    --bs-text-opacity: 1;
+    color: black !important;
+}
+
+.h6, h6 {
+    font-size: 1.2rem !important;
+}
+
+.mapa a {
+    color: black;
+}
