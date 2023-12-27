@@ -15,13 +15,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
       integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
       crossorigin="anonymous" referrerpolicy="no-referrer" />
-  </head>
+</head>
 
 <body>
 
 <header>
   <div class="logo">SecondShot</div>
-  <nav>
+  <div class="menu-toggle" onclick="toggleMenu()">
+    <i class="fas fa-bars"></i>
+  </div>
+  <nav id="menu">
     <ul>
       <li><a href="tienda.html">TIENDA</a></li>
       <li><a href="colecciones.html">COLECCIONES</a></li>
@@ -30,6 +33,13 @@
     </ul>
   </nav>
 </header>
+<script>
+  function toggleMenu() {
+    var menu = document.getElementById("menu");
+    menu.classList.toggle("show");
+  }
+</script>
+
 </body>
 
 
