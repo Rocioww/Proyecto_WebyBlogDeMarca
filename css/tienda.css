@@ -39,7 +39,7 @@
 .cuadro>.shoppingUtil {
     display: flex;
     align-items: right;
-    height: 10vh;
+    height: 5vh;
 }
 
 .cuadro>.shoppingUtil>img {
@@ -55,7 +55,7 @@ align-items: right;
 
 .cuadro>.productImage {
     max-width: 100%;
-    height: 20em;
+    height: 17em;
     object-fit: contain;
     transform: translate(0em, -5em);
     margin-bottom: -9em;
@@ -65,8 +65,6 @@ align-items: right;
     display: flex;
     justify-content: space-between;
 }
-
-
 
 .product>.productInfo>div>p {
     font-size: .75em;
