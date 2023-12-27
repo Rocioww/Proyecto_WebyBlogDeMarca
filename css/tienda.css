@@ -9,3 +9,80 @@
 :root {
 
 }
+
+#productGallery {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background: rgba(255, 255, 255, 0.293);
+    padding: 0 5vw 0 5vw;
+   
+}
+.producto{
+    max-width: 33%;
+    margin:2em;
+}
+.cuadro{
+    width: 100%;
+    border: 2px solid #0929D0;
+
+    background-color: rgba(199, 208, 255, 0.35);
+
+    height: 20em;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cuadro>.shoppingUtil {
+    display: flex;
+    align-items: right;
+    height: 10vh;
+}
+
+.cuadro>.shoppingUtil>img {
+    display: flex;
+    justify-content: space-between;
+align-items: right;
+    width: auto;
+    max-height: 2.5em;
+    object-fit: contain;
+    padding-top: .5em;
+    padding-left: .5em;
+}     
+
+.cuadro>.productImage {
+    max-width: 100%;
+    height: 20em;
+    object-fit: contain;
+    transform: translate(0em, -5em);
+    margin-bottom: -9em;
+}
+
+.cuadro>.productInfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.product>.productInfo>div>p {
+    font-size: .75em;
+    margin: 0;
+    padding-right: 1em;
+}
+
+.product>.productName {
+    font-family:;
+    color: #0929D0;
+    font-size: .7em;
+    padding-left: .5em;
+    margin-bottom: 0;
+}
+
+.product>.productDescription {
+    font-size: .7em;
+    padding: 0 .5em 0 .5em;
+}
