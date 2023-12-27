@@ -42,23 +42,27 @@ img {
 }
 
 .title-service p {
-  padding-right: 6em;
+  padding-right: 3em;
   padding-bottom: 2em;
   color: #fff;
+  font-size: 1.3em;
 }
 
 .title-services {
     margin: 50px;
     color: var(--black);
  }
+ 
 
  .title-services h1 {
     font-size: 3em !important;
 }
 
 .title-service2 p {
+  padding-right: 3em;
   padding-bottom: 2em;
   color: #fff;
+  font-size: 1.3em;
 }
 
 .c-rule {
@@ -213,6 +217,7 @@ img {
   padding: 25px 25px;
   border-radius: 40px;
   margin-bottom: 2%;
+  transition: all 0.35s;
 }
 
 .figure {
@@ -238,5 +243,14 @@ img {
   padding: 25px 25px;
   border-radius: 40px;
   margin-bottom: 2%;
+  transition: all 0.35s;
+}
+
+.services1:hover {
+  transform: scale(1.03);
+}
+
+.services2:hover {
+  transform: scale(1.03);
 }
 
