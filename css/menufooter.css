@@ -81,6 +81,18 @@ nav a {
   font-size: 18px;
 }
 
+#menu a:hover {
+  color: #ffffff80;
+}
+
+.logo > img {
+  margin-bottom: 10px;
+  max-width: 5em;
+}
+
+
+
+/* footer  */
 
 footer {
   background-color: #0929D0;
@@ -114,10 +126,7 @@ footer {
   text-align: right;
 }
 
-.logo > img {
-  margin-bottom: 10px;
-  max-width: 5em;
-}
+
 
 .logo2 > img{
   margin-bottom: 1em;
