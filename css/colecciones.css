@@ -26,6 +26,7 @@ header {
 
 }
 
+
 .logo > a > img {
 
   max-width: 5em;
@@ -604,4 +605,114 @@ form input[type="checkbox"] {
   }
 
 }
+
+
+
+
+
+@media (max-width: 1110px){
+
+  .title-service p {
+    padding-bottom: 0em; 
+    font-size: 1.1em;
+}
+
+.title-service h1, .title-service2 h1 {
+  font-size: 4em !important;
+}
+
+.title-service2 p {
+  padding-bottom: 0em; 
+  font-size: 1.1em;
+}
+
+}
+
+
+@media (max-width: 970px){
+
+  .services1, .services2{
+    flex-direction: column !important;
+  }
+
+  .title-service h1, .title-service2 h1 {
+    font-size: 5em !important;
+  }
+
+  .title-service p {
+  padding-bottom: 1em;
+  font-size: 1.3em;
+  padding-right: 0em;
+  }
+
+  .title-service2 p {
+  padding-bottom: 1em;
+  font-size: 1.3em;
+  padding-right: 0em;
+  }
+
+}
+
+@media (max-width: 645px) {
+
+  .title-service h1, .title-service2 h1 {
+    font-size: 4em !important;
+  }
+
+  .title-service p {
+  padding-bottom: 1em;
+  font-size: 1.1em;
+  }
+
+  .title-service2 p {
+  padding-bottom: 1em;
+  font-size: 1.1em;
+  }
+
+
+}
+
+@media (max-width: 550px) {
+
+  .title-service h1, .title-service2 h1 {
+    font-size: 3em !important;
+  }
+
+  .title-service p {
+  padding-bottom: 0.5em;
+  font-size: 1em;
+  }
+
+  .title-service2 p {
+  padding-bottom: 0.5em;
+  font-size: 1em;
+  }
+
+  #servicespad {
+    padding: 2em 3em;
+    padding-top: 2em; 
+}
+
+
+}
+
+@media (max-width: 460px) {
+
+  .title-service h1, .title-service2 h1 {
+    font-size: 2em !important;
+  }
+
+  .title-service p {
+  padding-bottom: 0.5em;
+  font-size: 0.8em;
+  }
+
+  .title-service2 p {
+  padding-bottom: 0.5em;
+  font-size: 0.8em;
+  }
+
+
+}
+
 
