@@ -6,7 +6,6 @@
     font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
 }
 
-
 /* HEADER  */
 header {
     position: sticky;
@@ -17,14 +16,12 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-
 }
 
 .logo {
     color: white;
     font-size: 24px;
     font-weight: bold;
-
 }
 
 .logo>img {
@@ -48,7 +45,6 @@ nav ul {
     display: flex;
     justify-content: flex-end;
     align-self: flex-end;
-
 }
 
 
@@ -68,21 +64,21 @@ nav a {
     cursor: pointer;
     font-size: 24px;
     color: white;
-    margin-left: auto; /* Mueve el icono a la derecha */
+    margin-left: auto; 
 }
 
 #menu {
-    display: none; /* Oculta el menú por defecto */
+    display: none; 
 }
 
 #menu.show {
-    display: flex; /* Muestra el menú en dispositivos móviles */
+    display: flex; 
     flex-direction: column;
     align-items: center;
-    background-color: #0929D0; /* Ajusta el fondo del menú desplegable */
+    background-color: #0929D0; 
     position: absolute;
     width: 100%;
-    top: 70px; /* Ajusta la posición superior para evitar solapamiento con el header */
+    top: 70px;
 }
 
 #menu ul {
@@ -128,6 +124,7 @@ body {
     position: relative;
     z-index: 1; 
 }
+
 .contact-info-body,
 .store-info,
 .workshop-info,
@@ -162,7 +159,6 @@ body {
     padding: 5px 10px; 
     border: 2px solid; 
 }
-
 
 .contact-info-body h2 {
     border-color: #0929D0;
@@ -203,8 +199,6 @@ body {
     color: #001170;
 }
 
-
-
 /* video destello fondo */
 body::before,
 body::after {
@@ -226,7 +220,6 @@ body::after {
         background-position: -100% -100%; 
     }
 }
-
 
 /* FORMULARIO */
 .form-body {
@@ -287,7 +280,6 @@ body::after {
     background-color: #aaa; 
     cursor: not-allowed;
 }
-
 
 
 /* FOOTER Y MEDIAQUERIES */
@@ -516,9 +508,8 @@ form input[type="checkbox"] {
 }
 
 
-
 /* Tablet */
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     .contact-info-body,
     .store-info,
     .workshop-info,
@@ -533,90 +524,94 @@ form input[type="checkbox"] {
         align-items: stretch;
         flex-direction: column-reverse;
         padding-bottom: 0;
-      }
-      #menu{
+    }
+    #menu{
           margin-top: 0;
-      }
-      .logo {
+    }
+    .logo {
         margin-bottom: 10px;
         display: flex;
         justify-content: space-between;
-      }
+    }
     
-      nav {
+    nav {
         order: -1;
         margin-top: 10px;
-      }
+    }
     
-      nav ul {
+    nav ul {
         flex-direction: column;
         align-items: stretch;
-      }
+    }
     
-      nav li {
+    nav li {
         margin: 0;
         margin-bottom: 10px;
-      }
+    }
     
-      .menu-toggle {
+    .menu-toggle {
         display: block;
         position: sticky;
        padding: 0.1em;
-      }
+    }
     
-      #menu {
+    #menu {
         flex-direction: column;
         align-items: stretch;
         display: none;
-      }
+    }
     
-      #menu.show {
+    #menu.show {
         display: flex;
-      }
+    }
     
-      #menu ul {
+    #menu ul {
         flex-direction: column;
         align-items: stretch;
         text-align: center;
-      }
+    }
     
-      #menu li {
+    #menu li {
           margin: 1em;
-      }
-      #menu li:last-child {
+    }
+
+    #menu li:last-child {
           margin-bottom: 1.8em;
-      }
+    }
     
-      footer{
+    footer{
         flex-direction: column;
         text-align: center;
         align-items: center;
-      }
-      .footer-right{
+    }
+    .footer-right{
         text-align: center;
         align-items: center;
-      }
+    }
     
-      .contact-info-body > h2:first-child{
+    .contact-info-body > h2:first-child{
         margin-top: 1.5em;
     
-      }
-      .social-icons > a:first-child{
+    }
+    .social-icons > a:first-child{
         margin-left: 0;
-      }
+    }
 
-      .footer-left,
+    .footer-left,
     .footer-center,
     .footer-right {
         flex: 0 0 30%;
         margin-bottom: 20px;
     }
+
     .footer-center h2 {
         font-size: 24px;
     }
+
     .footer-center p {
         padding: 0 7em 0 7em;
     }
+
     .footer-right {
         text-align: right;
     }
@@ -713,12 +708,12 @@ form input[type="checkbox"] {
    
     .footer-columns {
             flex-direction: column;
-        }
+    }
     
     .footer-columns .column {
             margin-right: 0;
             margin-bottom: 20px;
-        }
+    }
 }
 
 /* Móvil */
@@ -775,10 +770,8 @@ form input[type="checkbox"] {
     }
 
 
-
     .social-icons a:last-child {
         margin-right: 0px;
-
     }
 
     .footer-bottom {
