@@ -110,10 +110,10 @@ nav a {
 
 #fotoheader > div > h1{
   position: absolute;
-  margin-top: 9.5%;
+  margin-top: 6.9%;
   margin-left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: #0929CF;
   font-size: 3em;
 }
 
@@ -562,7 +562,7 @@ form input[type="checkbox"] {
   }
 
   #fotoheader > div > h1{
-    font-size: 2.5em;
+    font-size: 2em;
   }
 
   footer{
@@ -594,7 +594,7 @@ form input[type="checkbox"] {
 @media screen and (max-width: 480px) {
 
   #fotoheader > div > h1{
-    font-size: 2em;
+    font-size: 1.6em;
   }
 
   #servicespad {
