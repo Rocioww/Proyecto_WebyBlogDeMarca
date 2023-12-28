@@ -17,8 +17,8 @@ header {
 
 #indexheader > h1{
     position: absolute;
-    top: 50%;
-    left: 50%;
+    margin-top: 15%;
+    margin-left: 50%;
     transform: translate(-50%, -50%);
     color: #fff; /* Color del texto, puedes cambiarlo según tu diseño */
 }
@@ -74,129 +74,6 @@ img {
 .right{
   text-align: right;
 }
-/* HEADER  */
-.header {
-    background-color:rgba(255, 255, 255, 0.6);
-    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
-    width: 100%;
-    z-index: 3;
-    position: fixed;
-    color: var(--black);
-    top: 0;
-    left: 0;
-
-  }
-  
-  .header ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    overflow: hidden;
-    background-color: transparent;
-  }
-  
-  .header li a {
-    display: block;
-    padding: 19px 19px;
-    text-decoration: none;
-    font-size: 1.3em;
-  }
-  
-  .header li a:hover,
-  .header .menu-btn:hover {
-    border-bottom: 1px solid black;
-  }
-  
-  
-  .header .logo {
-    display: block;
-    float: left;
-    font-size: 2em;
-    padding: 14px 20px;
-    text-decoration: none;
-  }
-  
-  
-  /* menu */
-
-  
-  .header .menu {
-    clear: both;
-    max-height: 0;
-    transition: max-height .2s ease-out;
-  }
-
-
-  
-  /* menu icon */
-
-  label{
-    margin: 0 !important;
-  }
-  
-  .header .menu-icon {
-    cursor: pointer;
-    display: inline-block;
-    float: right;
-    padding: 33px 20px;
-    position: relative;
-    user-select: none;
-  }
-  
-  .header .menu-icon .navicon {
-    background: #333;
-    display: block;
-    height: 2px;
-    position: relative;
-    transition: .2s ease-out;
-    width: 18px;
-  }
-  
-  .header .menu-icon .navicon:before,
-  .header .menu-icon .navicon:after {
-    background: #333;
-    content: '';
-    display: block;
-    height: 100%;
-    position: absolute;
-    transition: all .2s ease-out;
-    width: 100%;
-  }
-  
-  .header .menu-icon .navicon:before {
-    top: 5px;
-  }
-  
-  .header .menu-icon .navicon:after {
-    top: -5px;
-  }
-  
-  /* menu btn */
-  
-  .header .menu-btn {
-    display: none;
-  }
-  
-  .header .menu-btn:checked ~ .menu {
-    max-height: 280px;
-  }
-  
-  .header .menu-btn:checked ~ .menu-icon .navicon {
-    background: transparent;
-  }
-  
-  .header .menu-btn:checked ~ .menu-icon .navicon:before {
-    transform: rotate(-45deg);
-  }
-  
-  .header .menu-btn:checked ~ .menu-icon .navicon:after {
-    transform: rotate(45deg);
-  }
-  
-  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
-  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
-    top: 0;
-  }
   
 
 
@@ -253,4 +130,110 @@ img {
 .services2:hover {
   transform: scale(1.03);
 }
+
+@media (max-width: 1110px){
+
+  .title-service p {
+    padding-bottom: 0em; 
+    font-size: 1.1em;
+}
+
+.title-service h1, .title-service2 h1 {
+  font-size: 4em !important;
+}
+
+.title-service2 p {
+  padding-bottom: 0em; 
+  font-size: 1.1em;
+}
+
+}
+
+
+@media (max-width: 970px){
+
+  .services1, .services2{
+    flex-direction: column !important;
+  }
+
+  .title-service h1, .title-service2 h1 {
+    font-size: 5em !important;
+  }
+
+  .title-service p {
+  padding-bottom: 1em;
+  font-size: 1.3em;
+  padding-right: 0em;
+  }
+
+  .title-service2 p {
+  padding-bottom: 1em;
+  font-size: 1.3em;
+  padding-right: 0em;
+  }
+
+}
+
+@media (max-width: 645px) {
+
+  .title-service h1, .title-service2 h1 {
+    font-size: 4em !important;
+  }
+
+  .title-service p {
+  padding-bottom: 1em;
+  font-size: 1.1em;
+  }
+
+  .title-service2 p {
+  padding-bottom: 1em;
+  font-size: 1.1em;
+  }
+
+
+}
+
+@media (max-width: 550px) {
+
+  .title-service h1, .title-service2 h1 {
+    font-size: 3em !important;
+  }
+
+  .title-service p {
+  padding-bottom: 0.5em;
+  font-size: 1em;
+  }
+
+  .title-service2 p {
+  padding-bottom: 0.5em;
+  font-size: 1em;
+  }
+
+  #servicespad {
+    padding: 2em 3em;
+    padding-top: 2em; 
+}
+
+
+}
+
+@media (max-width: 460px) {
+
+  .title-service h1, .title-service2 h1 {
+    font-size: 2em !important;
+  }
+
+  .title-service p {
+  padding-bottom: 0.5em;
+  font-size: 0.8em;
+  }
+
+  .title-service2 p {
+  padding-bottom: 0.5em;
+  font-size: 0.8em;
+  }
+
+
+}
+
 
