@@ -25,13 +25,15 @@ header {
     color: #0929D0;
     opacity:100%;
     display: flex;
-    align-items: center;
+    align-items:center;
     justify-content: center;
-    background-size: 50;
-    height: 8em;
-    margin: 0;
+    background-size: 50em;
+    height: 6em;
+    margin: 0px;
     
 }
+
+
 
 .logo {
     color: white;
@@ -133,7 +135,7 @@ nav a {
   
   #fotoheader > div > img{
     width: 100%;
-    height: 100%;
+    height: 15em;
     overflow: hidden;
     object-fit: cover;
     
@@ -150,11 +152,12 @@ nav a {
     flex-wrap: wrap;
     flex-direction: row;
     background: rgba(255, 255, 255, 0.293);
-    padding: 0 5vw 0 5vw;
+    padding-top:5em
    
 }
 .producto{
     max-width: 26%;
+    height: 27em;
     margin:2em;
 }
 
@@ -165,14 +168,15 @@ nav a {
 
     background-color: rgba(199, 208, 255, 0.35);
 
-    height: 20
-    ;
+    height: 21em;
     border-radius: 20px;
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
 }
-
+.cuadro:hover{
+    width: ;
+}
 .cuadro>.shoppingUtil {
     display: flex;
     align-items: right;
@@ -219,8 +223,8 @@ align-items: right;
     
 }
 
-.product> .productName :hover {
-    
+.product> .productName:hover {
+    font-size: 1.2em !important;
 }
 
 .product>.productDescription {
@@ -564,18 +568,30 @@ form input[type="checkbox"] {
         margin-bottom: 0;
     }
 
-    #fotoheader > div > h1{
-        font-size: 2em;
-      }
-
+    /*tienda*/
+    .titulo{
+        height: 5em;
+    }
+    .producto{
+        max-width: 100%;
+    }
+    .cuadro{
+        height: 16em;
+      
+    }
 }
 
 @media screen and (max-width: 480px) {
-    
-    #fotoheader > div > h1{
-        font-size: 1.6em;
-      }
-    
+    .titulo{
+        height: 4em;
+    }
+    .producto{
+        max-width: 35%;
+        height: 19em;
+    }
+    .cuadro{
+        height: 12em;
+    }
 
     .footer-left,
     .footer-center,
