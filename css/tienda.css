@@ -152,12 +152,11 @@ nav a {
     flex-direction: row;
     background: rgba(255, 255, 255, 0.293);
     padding-top:2em;
-    padding-bottom:2em;
+    padding-bottom:0.7em;
    
 }
 .producto{
     max-width: 26%;
-    height: 27em;
     margin:2em;
 }
 
@@ -557,6 +556,10 @@ form input[type="checkbox"] {
         padding-bottom: 0;
     }
 
+ 
+
+    
+
     #menu {
         margin-top: 0;
     }
@@ -666,11 +669,12 @@ form input[type="checkbox"] {
         height: 4em;
     }
     .producto{
-        max-width: 35%;
-        height: 19em;
+        max-width: 80%;
+        
+        
     }
     .cuadro{
-        height: 12em;
+        height: auto;
     }
 
     .footer-left,
