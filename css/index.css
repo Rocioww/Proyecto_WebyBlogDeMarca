@@ -115,7 +115,7 @@ nav a {
 /* SECCION BEST SELLERS  */
 #fotoheader > h1{
     position: absolute;
-    margin-top: 25%;
+    margin-top: 23%;
     margin-left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -150,6 +150,7 @@ nav a {
     margin-left: 60%;
     transform: translate(-50%, -50%);
     color: #fff; 
+    font-size: 1.2em;
 }
 
 .botonchistmas {
@@ -347,6 +348,14 @@ nav a {
     max-width: 100%;
 }
 
+.figure > a > img{
+    height: 100%;
+   width: 100%;
+   border-radius: 6%;
+   padding: 0;
+  
+  }
+
 .figure img.Sirv.image-hover {
     position: absolute;
     top: 0;
@@ -369,6 +378,7 @@ nav a {
     transition: all 0.35s;
     margin-left: 2%;
     margin-right: 2%;
+    cursor: pointer;
 }
 
 .services1:hover {
@@ -430,6 +440,7 @@ nav a {
     display: flex;
     flex-direction: column;
     justify-content: flex-start !important;
+    cursor: pointer;
 
 }
 
@@ -604,6 +615,8 @@ button,
     border-radius: 10%;
     border: 5px solid #0929CF;
 }
+
+
 
 .col-md-12 {
     display: flex;
