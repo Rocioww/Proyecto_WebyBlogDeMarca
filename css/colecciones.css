@@ -601,6 +601,10 @@ form input[type="checkbox"] {
     padding: 2em 2em !important;
     padding-top: 2em;
 }
+
+.btnfooter2 {
+  margin-left: 3.8em !important;
+}
 .title-service, .title-service2 {
 
   padding: 0 0.5em !important;
