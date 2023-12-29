@@ -196,7 +196,6 @@ align-items: right;
 
 .cuadro>.productImage {
     display:flex;
-   align-items:;
     max-width: 100%;
     height: 17em;
     object-fit: contain;
