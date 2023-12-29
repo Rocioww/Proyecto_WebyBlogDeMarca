@@ -135,7 +135,7 @@ nav a {
   
   #fotoheader > div > img{
     width: 100%;
-    height: 100%;
+    height: 15em;
     overflow: hidden;
     object-fit: cover;
     
@@ -174,7 +174,9 @@ nav a {
     flex-direction: row-reverse;
     flex-wrap: wrap;
 }
-
+.cuadro:hover{
+    width: ;
+}
 .cuadro>.shoppingUtil {
     display: flex;
     align-items: right;
@@ -222,8 +224,7 @@ align-items: right;
 }
 
 .product> .productName:hover {
-    font-size: 1em;
-    
+    font-size: 1.2em !important;
 }
 
 .product>.productDescription {
