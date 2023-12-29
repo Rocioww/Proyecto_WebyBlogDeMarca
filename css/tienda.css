@@ -18,6 +18,20 @@ header {
     padding: 10px 20px;
 
 }
+.titulo{
+    font-style: italic;
+    font-weight: 900;
+    font-size: 3em;
+    color: #0929D0;
+    opacity:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 50;
+    height: 8em;
+    margin: 0;
+    
+}
 
 .logo {
     color: white;
@@ -130,6 +144,7 @@ nav a {
 
 #productGallery {
     display: flex;
+
     width: 100%;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -139,18 +154,22 @@ nav a {
    
 }
 .producto{
-    max-width: 33%;
+    max-width: 26%;
     margin:2em;
 }
+
+
 .cuadro{
     width: 100%;
     border: 2px solid #0929D0;
 
     background-color: rgba(199, 208, 255, 0.35);
 
-    height: 20em;
+    height: 20
+    ;
     border-radius: 20px;
     display: flex;
+    flex-direction: row-reverse;
     flex-wrap: wrap;
 }
 
@@ -167,16 +186,18 @@ align-items: right;
     width: auto;
     max-height: 2.5em;
     object-fit: contain;
-    padding-top: .5em;
-    padding-left: .5em;
+    padding-top: 1em;
+    padding-right: 1em;
 }     
 
 .cuadro>.productImage {
+    display:flex;
+   align-items:;
     max-width: 100%;
     height: 17em;
     object-fit: contain;
     transform: translate(0em, -5em);
-    margin-bottom: -9em;
+    margin-bottom: -6em;
 }
 
 .cuadro>.productInfo {
@@ -195,6 +216,11 @@ align-items: right;
     font-size: .7em;
     padding-left: .5em;
     margin-bottom: 0;
+    
+}
+
+.product> .productName :hover {
+    
 }
 
 .product>.productDescription {

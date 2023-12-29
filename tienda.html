@@ -9,6 +9,9 @@
   <link rel="icon" type="image/x-icon" href="img/tienda/favicon.png">
   <link rel="stylesheet" href="css\bootstrap.min.css">
   <link rel="stylesheet" href="css\tienda.css">
+  <link rel="stylesheet" href="css\menufooter.css">
+  <script src="js\bootstrap.bundle.js"></script>
+  <script src="js\script.js"></script>
   <link href="https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro" rel="stylesheet">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -52,11 +55,16 @@
 
 <body>
 
+
   <section id="fotoheader">
     <div data-aos="fade-up">
       <h1 class="fst-italic fw-semibold text-center">TIENDA</h1>
 
       <img src="img/fondos-14.png" alt="Descripción de la imagen">
+
+    <div class="titulo mt-3" style="background-image: url(img/tienda/fondoTienda.png);">
+    <p>Tienda</p>
+
     </div>
   </section>
 
@@ -65,7 +73,10 @@
       <div class=" producto col-sm-6 col-md-4 col-lg-3 " style="flex-direction: column;">
         <div class="cuadro">
           <div class="shoppingUtil" >
-              <img src="img/tienda/Star 5.png" alt="Add to Wishlist">
+            <img id="imagenA" src="img/tienda/StarA.png" alt="Imagen A">
+            <img id="imagenB" src="img/tienda/StarB.png" alt="Imagen B">
+      
+      
               
           </div>
           <img src="img/tienda/DSC010892 4.png" class="productImage" style="display: flex;align-content: center">
@@ -73,7 +84,9 @@
 
           <div class="productInfo">
             <div>
-              <p class="productName" style="font-weight: bold; color: #0929D0;">Olympus OM10</p>
+              <p class="productName"
+               style="font-weight: bold; color: #0929D0;">
+               Olympus OM10</p>
               <p class="productDescription">Estado: Reacondicionado</p>
 
             <p class="price" style="font-weight: 600; font-style: italic;">xx.xx€</p>
@@ -82,177 +95,298 @@
         </div>
       </div>
       
-<!--Producto 2-->
-<div class=" producto col-sm-6 col-md-4 col-lg-3 " style="flex-direction: column;">
-  <div class="cuadro">
-    <div class="shoppingUtil" >
-        <img src="img/tienda/Star 5.png" alt="Add to Wishlist">
-        
-    </div>
-    <img src="img/tienda/polaroid2 3.png" class="productImage" style="display: flex;align-content: center">
-    </div>
-
-    <div class="productInfo">
-      <div>
-        <p class="productName" style="font-weight: bold; color: #0929D0;">Polaroid One Step +</p>
-        <p class="productDescription">Estado: Reacondicionado</p>
-
-      <p class="price" style="font-weight: 600; font-style: italic;">xx.xx€</p>
-     
-      </div>
-  </div>
-</div>
-
-   <!--Producto 3-->
-   <div class=" producto col-sm-6 col-md-4 col-lg-3 " style="flex-direction: column;">
-    <div class="cuadro">
-      <div class="shoppingUtil" >
-          <img src="img/tienda/Star 5.png" alt="Add to Wishlist">
-          
-      </div>
-      <img src="img/tienda/kodak2 3.png" class="productImage" style="display: flex;align-content: center">
-      </div>
-
-      <div class="productInfo">
-        <div>
-          <p class="productName" style="font-weight: bold; color: #0929D0;">Kodak i60</p>
-          <p class="productDescription">Estado: Reacondicionado</p>
-
-        <p class="price" style="font-weight: 600; font-style: italic;">xx.xx€</p>
-       
-        </div>
-    </div>
-  </div>   
-  
-  <!--Producto 4-->
-  <div class=" producto col-sm-6 col-md-4 col-lg-3 " style="flex-direction: column;">
-    <div class="cuadro">
-      <div class="shoppingUtil" >
-          <img src="img/tienda/Star 5.png" alt="Add to Wishlist">
-          
-      </div>
-      <img src="img/tienda/DSC010892 4.png" class="productImage" style="display: flex;align-content: center">
-      </div>
-
-      <div class="productInfo">
-        <div>
-          <p class="productName" style="font-weight: bold; color: #0929D0;">Olympus OM10</p>
-          <p class="productDescription">Estado: Reacondicionado</p>
-
-        <p class="price" style="font-weight: 600; font-style: italic;">xx.xx€</p>
-       
-        </div>
-    </div>
-  </div>
-  
-<!--Producto 5-->
-<div class=" producto col-sm-6 col-md-4 col-lg-3 " style="flex-direction: column;">
-<div class="cuadro">
-<div class="shoppingUtil" >
-    <img src="img/tienda/Star 5.png" alt="Add to Wishlist">
-    
-</div>
-<img src="img/tienda/polaroid2 3.png" class="productImage" style="display: flex;align-content: center">
-</div>
-
-<div class="productInfo">
-  <div>
-    <p class="productName" style="font-weight: bold; color: #0929D0;">Polaroid One Step +</p>
-    <p class="productDescription">Estado: Reacondicionado</p>
-
-  <p class="price" style="font-weight: 600; font-style: italic;">xx.xx€</p>
- 
-  </div>
-</div>
-</div>
-
-<!--Producto 6-->
-<div class=" producto col-sm-6 col-md-4 col-lg-3 " style="flex-direction: column;">
-<div class="cuadro">
-  <div class="shoppingUtil" >
-      <img src="img/tienda/Star 5.png" alt="Add to Wishlist">
+       <!--Producto 2-->
+       <div class=" producto col-sm-6 col-md-4 col-lg-3 " style="flex-direction: column;">
+        <div class="cuadro">
+          <div class="shoppingUtil" >
+            <img id="imagenA" src="img/tienda/StarA.png" alt="Imagen A">
+            <img id="imagenB" src="img/tienda/StarB.png" alt="Imagen B">
       
-  </div>
-  <img src="img/tienda/kodak2 3.png" class="productImage" style="display: flex;align-content: center">
-  </div>
+      
+              
+          </div>
+          <img src="img/tienda/polaroid2 3.png" class="productImage" style="display: flex;align-content: center">
+          </div>
 
-  <div class="productInfo">
-    <div>
-      <p class="productName" style="font-weight: bold; color: #0929D0;">Kodak i60</p>
-      <p class="productDescription">Estado: Reacondicionado</p>
+          <div class="productInfo">
+            <div>
+              <p class="productName"
+               style="font-weight: bold; color: #0929D0;">
+               Olympus OM10</p>
+              <p class="productDescription">Estado: Reacondicionado</p>
 
-    <p class="price" style="font-weight: 600; font-style: italic;">xx.xx€</p>
-   
-    </div>
-</div>
-</div> 
-  <!--Producto 7-->
-<div class=" producto col-sm-6 col-md-4 col-lg-3 " style="flex-direction: column;">
-  <div class="cuadro">
-    <div class="shoppingUtil" >
-        <img src="img/tienda/Star 5.png" alt="Add to Wishlist">
-        
-    </div>
-    <img src="img/tienda/DSC010892 4.png" class="productImage" style="display: flex;align-content: center">
-    </div>
-
-    <div class="productInfo">
-      <div>
-        <p class="productName" style="font-weight: bold; color: #0929D0;">Olympus OM10</p>
-        <p class="productDescription">Estado: Reacondicionado</p>
-
-      <p class="price" style="font-weight: 600; font-style: italic;">xx.xx€</p>
-     
+            <p class="price" style="font-weight: 600; font-style: italic;">xx.xx€</p>
+           
+            </div>
+        </div>
       </div>
-  </div>
-</div>
+      
+       <!--Producto 3-->
+       <div class=" producto col-sm-6 col-md-4 col-lg-3 " style="flex-direction: column;">
+        <div class="cuadro">
+          <div class="shoppingUtil" >
+            <img id="imagenA" src="img/tienda/StarA.png" alt="Imagen A">
+            <img id="imagenB" src="img/tienda/StarB.png" alt="Imagen B">
+      
+      
+              
+          </div>
+          <img src="img/tienda/kodak2 3.png" class="productImage" style="display: flex;align-content: center">
+          </div>
 
-<!--Producto 8-->
-<div class=" producto col-sm-6 col-md-4 col-lg-3 " style="flex-direction: column;">
-<div class="cuadro">
-<div class="shoppingUtil" >
-  <img src="img/tienda/Star 5.png" alt="Add to Wishlist">
-  
-</div>
-<img src="img/tienda/polaroid2 3.png" class="productImage" style="display: flex;align-content: center">
-</div>
+          <div class="productInfo">
+            <div>
+              <p class="productName"
+               style="font-weight: bold; color: #0929D0;">
+               Olympus OM10</p>
+              <p class="productDescription">Estado: Reacondicionado</p>
 
-<div class="productInfo">
-<div>
-  <p class="productName" style="font-weight: bold; color: #0929D0;">Polaroid One Step +</p>
-  <p class="productDescription">Estado: Reacondicionado</p>
+            <p class="price" style="font-weight: 600; font-style: italic;">xx.xx€</p>
+           
+            </div>
+        </div>
+      </div>
+      
+      <!--Producto 4-->
+      <div class=" producto col-sm-6 col-md-4 col-lg-3 " style="flex-direction: column;">
+        <div class="cuadro">
+          <div class="shoppingUtil" >
+            <img id="imagenA" src="img/tienda/StarA.png" alt="Imagen A">
+            <img id="imagenB" src="img/tienda/StarB.png" alt="Imagen B">
+      
+      
+              
+          </div>
+          <img src="img/tienda/DSC010892 4.png" class="productImage" style="display: flex;align-content: center">
+          </div>
 
-<p class="price" style="font-weight: 600; font-style: italic;">xx.xx€</p>
+          <div class="productInfo">
+            <div>
+              <p class="productName"
+               style="font-weight: bold; color: #0929D0;">
+               Olympus OM10</p>
+              <p class="productDescription">Estado: Reacondicionado</p>
 
-</div>
-</div>
-</div>
+            <p class="price" style="font-weight: 600; font-style: italic;">xx.xx€</p>
+           
+            </div>
+        </div>
+      </div>
+      
+       <!--Producto 5-->
+       <div class=" producto col-sm-6 col-md-4 col-lg-3 " style="flex-direction: column;">
+        <div class="cuadro">
+          <div class="shoppingUtil" >
+            <img id="imagenA" src="img/tienda/StarA.png" alt="Imagen A">
+            <img id="imagenB" src="img/tienda/StarB.png" alt="Imagen B">
+      
+      
+              
+          </div>
+          <img src="img/tienda/polaroid2 3.png" class="productImage" style="display: flex;align-content: center">
+          </div>
 
-<!--Producto 9-->
-<div class=" producto col-sm-6 col-md-4 col-lg-3 " style="flex-direction: column;">
-<div class="cuadro">
-<div class="shoppingUtil" >
-    <img src="img/tienda/Star 5.png" alt="Add to Wishlist">
-    
-</div>
-<img src="img/tienda/kodak2 3.png" class="productImage" style="display: flex;align-content: center">
-</div>
+          <div class="productInfo">
+            <div>
+              <p class="productName"
+               style="font-weight: bold; color: #0929D0;">
+               Olympus OM10</p>
+              <p class="productDescription">Estado: Reacondicionado</p>
 
-<div class="productInfo">
-  <div>
-    <p class="productName" style="font-weight: bold; color: #0929D0;">Kodak i60</p>
-    <p class="productDescription">Estado: Reacondicionado</p>
+            <p class="price" style="font-weight: 600; font-style: italic;">xx.xx€</p>
+           
+            </div>
+        </div>
+      </div>
+      
+       <!--Producto 6-->
+       <div class=" producto col-sm-6 col-md-4 col-lg-3 " style="flex-direction: column;">
+        <div class="cuadro">
+          <div class="shoppingUtil" >
+            <img id="imagenA" src="img/tienda/StarA.png" alt="Imagen A">
+            <img id="imagenB" src="img/tienda/StarB.png" alt="Imagen B">
+      
+      
+              
+          </div>
+          <img src="img/tienda/kodak2 3.png" class="productImage" style="display: flex;align-content: center">
+          </div>
 
-  <p class="price" style="font-weight: 600; font-style: italic;">xx.xx€</p>
- 
-  </div>
-</div>
-</div>   
+          <div class="productInfo">
+            <div>
+              <p class="productName"
+               style="font-weight: bold; color: #0929D0;">
+               Olympus OM10</p>
+              <p class="productDescription">Estado: Reacondicionado</p>
+
+            <p class="price" style="font-weight: 600; font-style: italic;">xx.xx€</p>
+           
+            </div>
+        </div>
+      </div>
+      
+
+      <!--Producto 7-->
+      <div class=" producto col-sm-6 col-md-4 col-lg-3 " style="flex-direction: column;">
+        <div class="cuadro">
+          <div class="shoppingUtil" >
+            <img id="imagenA" src="img/tienda/StarA.png" alt="Imagen A">
+            <img id="imagenB" src="img/tienda/StarB.png" alt="Imagen B">
+      
+      
+              
+          </div>
+          <img src="img/tienda/DSC010892 4.png" class="productImage" style="display: flex;align-content: center">
+          </div>
+
+          <div class="productInfo">
+            <div>
+              <p class="productName"
+               style="font-weight: bold; color: #0929D0;">
+               Olympus OM10</p>
+              <p class="productDescription">Estado: Reacondicionado</p>
+
+            <p class="price" style="font-weight: 600; font-style: italic;">xx.xx€</p>
+           
+            </div>
+        </div>
+      </div>
+      
+       <!--Producto 8-->
+       <div class=" producto col-sm-6 col-md-4 col-lg-3 " style="flex-direction: column;">
+        <div class="cuadro">
+          <div class="shoppingUtil" >
+            <img id="imagenA" src="img/tienda/StarA.png" alt="Imagen A">
+            <img id="imagenB" src="img/tienda/StarB.png" alt="Imagen B">
+      
+      
+              
+          </div>
+          <img src="img/tienda/polaroid2 3.png" class="productImage" style="display: flex;align-content: center">
+          </div>
+
+          <div class="productInfo">
+            <div>
+              <p class="productName"
+               style="font-weight: bold; color: #0929D0;">
+               Olympus OM10</p>
+              <p class="productDescription">Estado: Reacondicionado</p>
+
+            <p class="price" style="font-weight: 600; font-style: italic;">xx.xx€</p>
+           
+            </div>
+        </div>
+      </div>
+      
+       <!--Producto 9-->
+       <div class=" producto col-sm-6 col-md-4 col-lg-3 " style="flex-direction: column;">
+        <div class="cuadro">
+          <div class="shoppingUtil" >
+            <img id="imagenA" src="img/tienda/StarA.png" alt="Imagen A">
+            <img id="imagenB" src="img/tienda/StarB.png" alt="Imagen B">
+      
+      
+              
+          </div>
+          <img src="img/tienda/kodak2 3.png" class="productImage" style="display: flex;align-content: center">
+          </div>
+
+          <div class="productInfo">
+            <div>
+              <p class="productName"
+               style="font-weight: bold; color: #0929D0;">
+               Olympus OM10</p>
+              <p class="productDescription">Estado: Reacondicionado</p>
+
+            <p class="price" style="font-weight: 600; font-style: italic;">xx.xx€</p>
+           
+            </div>
+        </div>
+      </div>
+      
+      
+      <!--Producto 10-->
+      <div class=" producto col-sm-6 col-md-4 col-lg-3 " style="flex-direction: column;">
+        <div class="cuadro">
+          <div class="shoppingUtil" >
+            <img id="imagenA" src="img/tienda/StarA.png" alt="Imagen A">
+            <img id="imagenB" src="img/tienda/StarB.png" alt="Imagen B">
+      
+      
+              
+          </div>
+          <img src="img/tienda/DSC010892 4.png" class="productImage" style="display: flex;align-content: center">
+          </div>
+
+          <div class="productInfo">
+            <div>
+              <p class="productName"
+               style="font-weight: bold; color: #0929D0;">
+               Olympus OM10</p>
+              <p class="productDescription">Estado: Reacondicionado</p>
+
+            <p class="price" style="font-weight: 600; font-style: italic;">xx.xx€</p>
+           
+            </div>
+        </div>
+      </div>
+      
+       <!--Producto 11-->
+       <div class=" producto col-sm-6 col-md-4 col-lg-3 " style="flex-direction: column;">
+        <div class="cuadro">
+          <div class="shoppingUtil" >
+            <img id="imagenA" src="img/tienda/StarA.png" alt="Imagen A">
+            <img id="imagenB" src="img/tienda/StarB.png" alt="Imagen B">
+      
+      
+              
+          </div>
+          <img src="img/tienda/polaroid2 3.png" class="productImage" style="display: flex;align-content: center">
+          </div>
+
+          <div class="productInfo">
+            <div>
+              <p class="productName"
+               style="font-weight: bold; color: #0929D0;">
+               Olympus OM10</p>
+              <p class="productDescription">Estado: Reacondicionado</p>
+
+            <p class="price" style="font-weight: 600; font-style: italic;">xx.xx€</p>
+           
+            </div>
+        </div>
+      </div>
+      
+       <!--Producto 12-->
+       <div class=" producto col-sm-6 col-md-4 col-lg-3 " style="flex-direction: column;">
+        <div class="cuadro">
+          <div class="shoppingUtil" >
+            <img id="imagenA" src="img/tienda/StarA.png" alt="Imagen A">
+            <img id="imagenB" src="img/tienda/StarB.png" alt="Imagen B">
+      
+      
+              
+          </div>
+          <img src="img/tienda/kodak2 3.png" class="productImage" style="display: flex;align-content: center">
+          </div>
+
+          <div class="productInfo">
+            <div>
+              <p class="productName"
+               style="font-weight: bold; color: #0929D0;">
+               Olympus OM10</p>
+              <p class="productDescription">Estado: Reacondicionado</p>
+
+            <p class="price" style="font-weight: 600; font-style: italic;">xx.xx€</p>
+           
+            </div>
+        </div>
+      </div>
+      
 
 
 
-
-
+     
                
       </div>
       
@@ -322,11 +456,5 @@
 
 
 
-<script src="js\bootstrap.bundle.js"></script>
-<script src="js\script.js"></script>
-<script>
-  AOS.init();
-</script>
-</body>
 
 </html>
