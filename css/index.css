@@ -1147,6 +1147,10 @@ form input[type="checkbox"] {
         margin-bottom: 1.8em;
     }
 
+    #fotoheader>h1 {
+        font-size: 3.6em;
+    }
+
     footer {
         flex-direction: column;
         text-align: center;
@@ -1177,6 +1181,7 @@ form input[type="checkbox"] {
 }
 
 @media (max-width: 690px) {
+ 
 
     .title-service h1,
     .title-service2 h1 {
@@ -1214,9 +1219,7 @@ form input[type="checkbox"] {
 
 @media (max-width: 650px) {
 
-    #fotoheader>h1 {
-        font-size: 4em;
-    }
+
 
     #christmas>h1 {
         -webkit-text-stroke: 1.1px white;
@@ -1238,6 +1241,9 @@ form input[type="checkbox"] {
 
 
 @media (max-width: 580px) {
+    #fotoheader>h1 {
+        font-size: 3em;
+    }
     #christmas>h1 {
         -webkit-text-stroke: 1px white;
         font-size: 1.8em;
@@ -1257,9 +1263,7 @@ form input[type="checkbox"] {
 }
 
 @media (max-width: 550px) {
-    #fotoheader>h1 {
-        font-size: 3em;
-    }
+ 
 
     .title-service h1,
     .title-service2 h1 {
