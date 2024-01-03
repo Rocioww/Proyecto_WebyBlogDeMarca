@@ -1390,6 +1390,7 @@ form input[type="checkbox"] {
     .product-card{
         width: 230px;
         height: 414px;
+        margin-right: 20px;
     }
 
     .product > div > .botonvermas3 {
@@ -1444,6 +1445,7 @@ form input[type="checkbox"] {
     #christmas>h3 {
         margin-left: 93.5%;
     }
+
 
 }
 
@@ -1599,6 +1601,9 @@ form input[type="checkbox"] {
         margin-left: 51%;
         margin-top: 19.7%;
     }
+
+
+
 }
 
 
