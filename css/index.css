@@ -502,20 +502,24 @@ button {
 .botontalleres {
     position: relative;
     border-radius: 9999px;
-    border-width: 1.5px;
-    border-color: #0929CF;
+    border: 1.5px solid #0929CF;
     padding: 0.5rem 2rem;
     transition: all 0.35s;
 }
 
 .botontalleres a {
     color: #0929CF !important;
-    font-size: 1.5em;
+    font-size: 1.7em;
 }
 
 .botontalleres:hover {
     transform: scale(1.06);
 }
+
+.custom-button:hover {
+    transform: scale(1.06);
+}
+
 
 .botontalleres1 {
     position: relative;
@@ -554,6 +558,7 @@ button,
     letter-spacing: -0.16px;
     transition-duration: 0.1s;
     transition-timing-function: linear;
+    background-color: white;
 }
 
 .btn-primary {

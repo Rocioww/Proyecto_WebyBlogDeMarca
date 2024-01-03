@@ -189,10 +189,9 @@ nav a {
 /* SERVICES  */
 
 #servicespad {
-  padding: 2.5em 4em;
-
-  
+  padding: 2.5em 4em;  
 }
+
 .services1, .services2 {
   padding: 0.5em;
   min-height: 20em;
@@ -239,18 +238,27 @@ nav a {
   padding: 25px 25px;
   border-radius: 40px;
   margin-bottom: 2%;
+}
+
+.title-service h1:hover{
+  transform: scale(1.04);
+  margin-left: 1%;
+}
+
+.title-service h1 {
+  transition: all 0.35s;
+}
+
+.title-service2 h1:hover{
+  transform: scale(1.04);
+  margin-right: 1%;
+}
+
+.title-service2 h1 {
   transition: all 0.35s;
 }
 
 
-
-.services1:hover {
-  transform: scale(1.03);
-}
-
-.services2:hover {
-  transform: scale(1.03);
-}
 
 /* FOOTER  */
 footer {
