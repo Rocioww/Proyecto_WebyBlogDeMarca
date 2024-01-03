@@ -134,23 +134,24 @@ nav a {
 
 #christmas > h1{
     position: absolute;
-    margin-top: 15%;
-    margin-left: 60%;
+    margin-top: 16%;
+    margin-left: 68%;
     transform: translate(-50%, -50%);
     font-size: 4em;
     color: transparent;
     -webkit-text-stroke: 2px white; 
     text-stroke: 2px white;       
     background-color: transparent;
+    min-width: 100%;
 }
 
 #christmas > h3{
     position: absolute;
-    margin-top: 10%;
-    margin-left: 60%;
+    margin-top: 12%;
+    margin-left: 68%;
     transform: translate(-50%, -50%);
     color: #fff; 
-    font-size: 1.2em;
+    font-size: 1.8em;
 }
 
 .botonchistmas {
@@ -162,7 +163,7 @@ nav a {
     transition: all 0.35s;
     position: absolute;
     margin-top: 20%;
-    margin-left: 54%;
+    margin-left: 61.5%;
 }
 
 .botonchistmas a {
@@ -881,6 +882,150 @@ form input[type="checkbox"] {
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+#bestsellers .mt-5 {
+    margin-top: 0rem!important;
+}
+
+#colecciones .btn:hover {
+    --tw-bg-opacity: 1;
+    background-color: white;
+    --tw-shadow: -4px 3px 0 0 black;
+    --tw-shadow-colored: -4px 3px 0 0 var(--tw-shadow-color);
+    box-shadow: 0 0 #0000, 0 0 #0000, var(--tw-shadow);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(0, 0, 0, 0)),
+      var(--tw-ring-shadow, 0 0 rgba(0, 0, 0, 0)), var(--tw-shadow);
+  }
+
+
+#taller .btn:hover {
+    --tw-bg-opacity: 1;
+    background-color: white;
+    --tw-shadow: -4px 3px 0 0 black;
+    --tw-shadow-colored: -4px 3px 0 0 var(--tw-shadow-color);
+    box-shadow: 0 0 #0000, 0 0 #0000, var(--tw-shadow);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(0, 0, 0, 0)),
+      var(--tw-ring-shadow, 0 0 rgba(0, 0, 0, 0)), var(--tw-shadow);
+  }
+
+
+
+/* MEDIA QUIERIES  */
+
+  @media (max-width: 1680px){
+    #christmas > h1 {
+        min-width: 80%;
+    }
+    .botonchistmas {
+        margin-left: 52.5%;
+    }
+  }
+
+  @media (max-width: 1170px){
+
+    .title-service p {
+      padding-bottom: 0em; 
+      font-size: 1.1em;
+  }
+  
+  .title-service h1, .title-service2 h1 {
+    font-size: 4em !important;
+  }
+  
+  .title-service2 p {
+    padding-bottom: 0em; 
+    font-size: 1.1em;
+  }
+  
+  }
+  
+  
+  @media (max-width: 990px){
+  
+    .services1, .services2{
+      flex-direction: column !important;
+    }
+  
+    .title-service h1, .title-service2 h1 {
+      font-size: 5em !important;
+    }
+  
+    .title-service p {
+    padding-bottom: 1em;
+    font-size: 1.3em;
+    padding-right: 0em;
+    }
+  
+    .title-service2 p {
+    padding-bottom: 1em;
+    font-size: 1.3em;
+    padding-right: 0em;
+    }
+  
+  }
+  
+  @media (max-width: 690px) {
+  
+    .title-service h1, .title-service2 h1 {
+      font-size: 4em !important;
+    }
+  
+    .title-service p {
+    padding-bottom: 1em;
+    font-size: 1.1em;
+    }
+  
+    .title-service2 p {
+    padding-bottom: 1em;
+    font-size: 1.1em;
+    }
+  
+  
+  }
+  
+  @media (max-width: 550px) {
+  
+    .title-service h1, .title-service2 h1 {
+      font-size: 3em !important;
+    }
+  
+    .title-service p {
+    padding-bottom: 0.5em;
+    font-size: 1em;
+    }
+  
+    .title-service2 p {
+    padding-bottom: 0.5em;
+    font-size: 1em;
+    }
+  
+    #colecciones {
+      padding: 2em 3em;
+      padding-top: 2em; 
+  }
+  
+  
+  }
+  
+  @media (max-width: 505px) {
+  
+    .title-service h1, .title-service2 h1 {
+      font-size: 2em !important;
+    }
+  
+    .title-service p {
+    padding-bottom: 0.5em;
+    font-size: 0.8em;
+    }
+  
+    .title-service2 p {
+    padding-bottom: 0.5em;
+    font-size: 0.8em;
+    }
+  
+  
+  }
+
+
 
 @media screen and (max-width: 768px) {
     header {
@@ -1035,135 +1180,3 @@ form input[type="checkbox"] {
     }
 
 }
-
-#bestsellers .mt-5 {
-    margin-top: 0rem!important;
-}
-
-#colecciones .btn:hover {
-    --tw-bg-opacity: 1;
-    background-color: white;
-    --tw-shadow: -4px 3px 0 0 black;
-    --tw-shadow-colored: -4px 3px 0 0 var(--tw-shadow-color);
-    box-shadow: 0 0 #0000, 0 0 #0000, var(--tw-shadow);
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(0, 0, 0, 0)),
-      var(--tw-ring-shadow, 0 0 rgba(0, 0, 0, 0)), var(--tw-shadow);
-  }
-
-
-#taller .btn:hover {
-    --tw-bg-opacity: 1;
-    background-color: white;
-    --tw-shadow: -4px 3px 0 0 black;
-    --tw-shadow-colored: -4px 3px 0 0 var(--tw-shadow-color);
-    box-shadow: 0 0 #0000, 0 0 #0000, var(--tw-shadow);
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(0, 0, 0, 0)),
-      var(--tw-ring-shadow, 0 0 rgba(0, 0, 0, 0)), var(--tw-shadow);
-  }
-
-  @media (max-width: 1170px){
-
-    .title-service p {
-      padding-bottom: 0em; 
-      font-size: 1.1em;
-  }
-  
-  .title-service h1, .title-service2 h1 {
-    font-size: 4em !important;
-  }
-  
-  .title-service2 p {
-    padding-bottom: 0em; 
-    font-size: 1.1em;
-  }
-  
-  }
-  
-  
-  @media (max-width: 990px){
-  
-    .services1, .services2{
-      flex-direction: column !important;
-    }
-  
-    .title-service h1, .title-service2 h1 {
-      font-size: 5em !important;
-    }
-  
-    .title-service p {
-    padding-bottom: 1em;
-    font-size: 1.3em;
-    padding-right: 0em;
-    }
-  
-    .title-service2 p {
-    padding-bottom: 1em;
-    font-size: 1.3em;
-    padding-right: 0em;
-    }
-  
-  }
-  
-  @media (max-width: 690px) {
-  
-    .title-service h1, .title-service2 h1 {
-      font-size: 4em !important;
-    }
-  
-    .title-service p {
-    padding-bottom: 1em;
-    font-size: 1.1em;
-    }
-  
-    .title-service2 p {
-    padding-bottom: 1em;
-    font-size: 1.1em;
-    }
-  
-  
-  }
-  
-  @media (max-width: 550px) {
-  
-    .title-service h1, .title-service2 h1 {
-      font-size: 3em !important;
-    }
-  
-    .title-service p {
-    padding-bottom: 0.5em;
-    font-size: 1em;
-    }
-  
-    .title-service2 p {
-    padding-bottom: 0.5em;
-    font-size: 1em;
-    }
-  
-    #colecciones {
-      padding: 2em 3em;
-      padding-top: 2em; 
-  }
-  
-  
-  }
-  
-  @media (max-width: 505px) {
-  
-    .title-service h1, .title-service2 h1 {
-      font-size: 2em !important;
-    }
-  
-    .title-service p {
-    padding-bottom: 0.5em;
-    font-size: 0.8em;
-    }
-  
-    .title-service2 p {
-    padding-bottom: 0.5em;
-    font-size: 0.8em;
-    }
-  
-  
-  }
-
-
