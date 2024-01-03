@@ -423,7 +423,7 @@ nav a {
     padding: 2em 2em 2em 2em;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     background-color: #fff;
 }
@@ -442,7 +442,7 @@ nav a {
 
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
 
@@ -453,6 +453,14 @@ nav a {
 
 .talleres4 img {
     width: 100%;
+}
+
+.grupotalleres1 {
+    display: flex;
+}
+
+.grupotalleres2 {
+    display: flex;
 }
 
 .title-service,
@@ -1117,7 +1125,7 @@ form input[type="checkbox"] {
  
     .talleres3 {
         background-color: #0929CF;
-        padding: 4em 2em 0em 2em;
+        padding: 4em 2em 2em 2em;
     }
 
     #taller {
@@ -1125,15 +1133,15 @@ form input[type="checkbox"] {
     }
 
     .talleres1 {
-        padding: 4em 2em 0em 2em;
+        padding: 4em 2em 2em 2em;
     }
 
     .talleres2 img {
-        padding: 4em 4em;
+        padding: 2em 2em;
     }
 
     .talleres4 img {
-        padding: 4em 4em;
+        padding: 2em 2em;
         background-color: #0929CF;
     }
 
@@ -1474,6 +1482,13 @@ form input[type="checkbox"] {
         padding-top: 2em;
     }
    
+    .talleres2 img {
+        padding: 0em 0em;
+    }
+
+    .talleres4 img {
+        padding: 0em 0em;
+    }
 
 }
 
@@ -1511,14 +1526,21 @@ form input[type="checkbox"] {
         margin-top: 19.7%;
     }
 
-    .talleres2 img {
-        padding: 3em 3em;
+    .talleres1 h1 {
+        font-size: 1.6rem;
     }
 
-    .talleres4 img {
-        padding: 3em 3em;
+    .talleres3 h1 {
+        font-size: 1.6rem;
     }
 
+    .botontalleres a {
+        font-size: 1.1em;
+    }
+
+    .botontalleres1 a {
+        font-size: 1.1em;
+    }
 
 }
 
@@ -1651,6 +1673,22 @@ form input[type="checkbox"] {
     .botonchistmas {
         margin-left: 45%;
 
+    }
+
+    .talleres1 h1 {
+        font-size: 1.3rem;
+    }
+
+    .talleres3 h1 {
+        font-size: 1.3rem;
+    }
+
+    .botontalleres a {
+        font-size: 0.7em;
+    }
+
+    .botontalleres1 a {
+        font-size: 0.7em;
     }
 
 }
