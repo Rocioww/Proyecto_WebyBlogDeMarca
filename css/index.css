@@ -633,17 +633,27 @@ button,
 .galeriatienda {
     display: flex;
     flex-direction: row;
+    padding: 0em 10em;
+}
+
+.mapcol{
+    padding: 0.5em 1em;
+    cursor: pointer;
 }
 
 .img-fluid {
-    max-width: 90% !important;
+
     border-radius: 10%;
     border: 5px solid #0929CF;
 }
 
 .mapinfo{
     padding: 0.5em 1.3em;
+    padding-right: 0;
+    max-width: 85%;
 }
+
+
 
 .fa-location-dot {
    font-size: 2em;
@@ -961,6 +971,15 @@ form input[type="checkbox"] {
     .botonchistmas {
         margin-left: 60%;
     }
+    .galeriatienda {
+        padding: 0em 7em;
+    }
+}
+
+@media (max-width: 1530px) {
+    .galeriatienda {
+        padding: 0em 3em;
+    }
 }
 
 @media (max-width: 1500px) {
@@ -977,6 +996,18 @@ form input[type="checkbox"] {
     #christmas>h3 {
         margin-left: 102%;
     }
+    .profileinfo > h6 {
+        font-size: 1em !important;
+        min-width: 100%;
+    }
+    .fa-location-dot {
+        font-size: 1.5em;
+     }
+     .mapa > a:last-child{
+        font-size: 1em;
+        padding-left: 0.5em;
+     }
+ 
 }
 @media (max-width: 1300px) {
 
@@ -1033,6 +1064,10 @@ form input[type="checkbox"] {
         margin-left: 97%;
    
     }
+
+    .galeriatienda {
+        padding: 0em 1em;
+    }
  
 
 }
@@ -1071,6 +1106,9 @@ form input[type="checkbox"] {
         margin-left: 92%;
    
     }
+    .galeriatienda {
+        padding: 0;
+    }
 
 }
 
@@ -1093,6 +1131,16 @@ form input[type="checkbox"] {
         margin-left: 54%;
         margin-top: 21%;
     }
+
+    .mapcol {
+        padding: 0.5em 0.4em;
+   
+    }
+
+    #tiendas{
+        padding: 2em 2.2em;
+        padding-top: 2em;
+    }
 }
 @media (max-width: 810px) {
 
@@ -1102,7 +1150,7 @@ form input[type="checkbox"] {
     }
     #christmas>h3 {
         font-size: 1.2em;
-        margin-left: 95%;
+        margin-left: 93.5%;
     }
     .botonchistmas a {
   
@@ -1113,15 +1161,18 @@ form input[type="checkbox"] {
         margin-left: 52%;
         margin-top: 21%;
     }
-}
 
-@media (max-width: 810px) {
+    .galeriatienda {
+        flex-direction: column;
 
-    #christmas>h3 {
-        margin-left: 93.5%;
+    }
+    #tiendas{
+        padding: 3em 12em;
+        padding-top: 2em;
     }
 
 }
+
 
 @media screen and (max-width: 768px) {
     header {
@@ -1190,6 +1241,11 @@ form input[type="checkbox"] {
         font-size: 3.6em;
     }
 
+    #tiendas{
+        padding: 3em 10em;
+        padding-top: 2em;
+    }
+
     footer {
         flex-direction: column;
         text-align: center;
@@ -1254,6 +1310,11 @@ form input[type="checkbox"] {
         margin-top: 21%;
     }
 
+    #tiendas{
+        padding: 3em 8em;
+        padding-top: 2em;
+    }
+
 }
 
 @media (max-width: 650px) {
@@ -1294,10 +1355,14 @@ form input[type="checkbox"] {
         margin-top: 9%;    
     }
 
-
     .botonchistmas {
         margin-left: 49%;
         margin-top: 19.7%;
+    }
+
+    #tiendas{
+        padding: 3em 8em;
+        padding-top: 2em;
     }
 }
 
@@ -1324,6 +1389,10 @@ form input[type="checkbox"] {
         padding-top: 2em;
     }
 
+    #tiendas{
+        padding: 3em 6em;
+        padding-top: 2em;
+    }
    
 
 }
@@ -1385,6 +1454,11 @@ form input[type="checkbox"] {
     .botonchistmas {
         margin-left: 47%;
         margin-top: 19.7%;
+    }
+
+    #tiendas{
+        padding: 3em 4em;
+        padding-top: 1.7em;
     }
 
     .footer-left,
@@ -1511,6 +1585,11 @@ form input[type="checkbox"] {
     .botonchistmas a {
         font-size: 1em;
     }
+
+    #tiendas{
+        padding: 3em 2.5em;
+        padding-top: 1.7em;
+    }
 }
 
 @media screen and (max-width: 380px) {
@@ -1550,6 +1629,11 @@ form input[type="checkbox"] {
 
     #christmas>h3 {
         margin-left: 88.5%;
+    }
+
+    #tiendas{
+        padding: 3em 2em;
+        padding-top: 1.7em;
     }
 
 }
@@ -1592,6 +1676,12 @@ form input[type="checkbox"] {
         font-size: 0.7em;
         margin-left: 83%;
      
+    }
+
+    .mapinfo {
+        padding: 0.5em 1em;
+        padding-right: 0;
+
     }
 
 }
