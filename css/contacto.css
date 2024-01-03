@@ -27,7 +27,6 @@ header {
 
 }
 
-
 .logo>a>img {
 
   max-width: 5em;
@@ -51,7 +50,6 @@ nav ul {
   align-self: flex-end;
 
 }
-
 
 nav li {
   margin-right: 20px;
@@ -97,7 +95,6 @@ nav a {
 
 }
 
-
 #menu a:hover {
   color: #ffffff80;
 }
@@ -108,7 +105,6 @@ nav a {
   margin-top: 10px;
 }
 
-
 #fotoheader>div>h1 {
   position: absolute;
   margin-top: 6.9%;
@@ -117,7 +113,6 @@ nav a {
   color: #0929CF;
   font-size: 3em;
 }
-
 
 #fotoheader>div>img {
   width: 100%;
@@ -147,7 +142,6 @@ body {
 .form-section {
   padding: 2em 5em;
 }
-
 
 .store-info,
 .workshop-info,
@@ -313,7 +307,6 @@ body::after {
   color: #0929D0;
 }
 
-
 .form-body button:disabled,
 .form-body button[disabled] {
   background-color: #aaa;
@@ -353,8 +346,6 @@ footer {
   text-align: right;
 }
 
-
-
 .logo2>img {
   margin-bottom: 1em;
   max-width: 3.5em;
@@ -380,8 +371,6 @@ ul>li>a:hover {
 ul li {
   margin-bottom: 10px;
 }
-
-
 
 .footer-center h2 {
   font-size: 28px;
@@ -416,7 +405,6 @@ form label {
   margin-bottom: 12px;
   font-size: 14px;
 }
-
 
 
 form input[type="checkbox"] {
