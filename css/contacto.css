@@ -237,6 +237,7 @@ body::after {
   background-size: 200% 200%;
   animation: shine 3s infinite linear;
   opacity: 0.8;
+  z-index: -1;
 }
 
 @keyframes shine {
