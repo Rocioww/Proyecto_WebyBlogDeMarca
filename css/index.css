@@ -202,7 +202,7 @@ nav a {
     border: 2px solid #0929D0;
 
     background-color: rgba(199, 208, 255, 0.35);
-
+flex-direction: row-reverse;
     height: 20em;
     border-radius: 20px;
     display: flex;
@@ -223,7 +223,7 @@ nav a {
     max-height: 2.5em;
     object-fit: contain;
     padding-top: .5em;
-    padding-left: .5em;
+    padding-right: .5em;
 }
 
 .cuadro>.productImage {
@@ -260,6 +260,34 @@ nav a {
     font-size: .7em;
     padding: 0 .5em 0 .5em;
 }
+
+p{
+    margin-bottom: 0.3rem !important;
+}
+
+.product>.productInfo>div>p {
+    font-size: .75em;
+    margin: 0;
+    padding-right: 1em;
+}
+
+.product>.productName {
+    color: #0929D0;
+    font-size: .7em;
+    padding-left: .5em;
+    margin-bottom: 0;
+    
+}
+
+.product> .productName:hover {
+    font-size: 1.2em !important;
+}
+
+.product>.productDescription {
+    font-size: .7em;
+    padding: 0 .5em 0 .5em;
+}
+
 
 #carouselContainer {
     position: relative;
