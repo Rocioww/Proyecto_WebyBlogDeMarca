@@ -179,6 +179,7 @@ nav a {
 #bestsellers {
     padding: 2em 4em;
     padding-top: 3em;
+    background-color: chocolate;
 }
 
 #productGallery {
@@ -193,7 +194,7 @@ nav a {
 }
 
 .producto {
-    max-width: 33%;
+    max-width: 100%;
     margin: 2em;
 }
 
@@ -292,6 +293,12 @@ p{
 #carouselContainer {
     position: relative;
     overflow: hidden;
+}
+.carousel-inner{
+    max-width: 33%;
+    display: flex;
+    flex-direction: row;
+
 }
 
 #productGallery {

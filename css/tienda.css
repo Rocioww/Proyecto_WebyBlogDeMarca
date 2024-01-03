@@ -198,6 +198,9 @@ align-items: right;
     object-fit: contain;
     transform: translate(0em, -5em);
     margin-bottom: -6em;
+ 
+justify-content: center;
+
 }
 
 .cuadro>.productInfo {
