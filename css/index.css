@@ -623,6 +623,22 @@ button,
     border: 5px solid #0929CF;
 }
 
+.mapinfo{
+    padding: 0.5em 1.3em;
+}
+
+.fa-location-dot {
+   font-size: 2em;
+}
+
+.mapa {
+    display:flex;
+    align-items: center;
+}
+.mapa > a:last-child{
+    padding-left: 0.7em;
+}
+
 
 
 .col-md-12 {
