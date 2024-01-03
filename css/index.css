@@ -957,6 +957,29 @@ form input[type="checkbox"] {
     }
 }
 
+@media (max-width: 1415px) {
+
+    #taller .fst-italic {
+        margin-bottom: -2em;
+    }
+
+    .talleres1 h1 {
+        font-size: 2rem;
+    }
+
+    .talleres3 h1 {
+        font-size: 2rem;
+    }
+
+    .botontalleres a {
+        font-size: 1.4em;
+    }
+
+    .botontalleres1 a {
+        font-size: 1.4em;
+    }
+}
+
 @media (max-width: 1400px) {
     #christmas>h3 {
         margin-left: 102%;
@@ -975,6 +998,14 @@ form input[type="checkbox"] {
         margin-left: 56%;
     }
 }
+
+@media (max-width: 1340px) {
+
+    #taller .fst-italic {
+        margin-bottom: -1.8em;
+    }
+}
+
 
 @media (max-width: 1200px) {
 
@@ -1021,6 +1052,41 @@ form input[type="checkbox"] {
 
 }
 
+@media (max-width: 1150px) {
+
+    #taller .fst-italic {
+        margin-bottom: 1em;
+        color: #0929CF;
+    }
+
+    .talleres {
+        display: flex;
+        flex-direction: column;
+    }
+ 
+    .talleres3 {
+        background-color: #0929CF;
+        padding: 4em 2em 0em 2em;
+    }
+
+    #taller {
+        background-color: #ffffff;
+    }
+
+    .talleres1 {
+        padding: 4em 2em 0em 2em;
+    }
+
+    .talleres2 img {
+        padding: 4em 4em;
+    }
+
+    .talleres4 img {
+        padding: 4em 4em;
+        background-color: #0929CF;
+    }
+
+}
 
 @media (max-width: 990px) {
 
@@ -1261,6 +1327,20 @@ form input[type="checkbox"] {
     }
 }
 
+@media (max-width: 608px) {
+
+.talleres1 {
+    align-items: flex-start;
+}
+
+.talleres3 {
+    align-items: flex-start;
+}
+
+}
+
+
+
 
 
 @media (max-width: 580px) {
@@ -1344,6 +1424,14 @@ form input[type="checkbox"] {
     .botonchistmas {
         margin-left: 47%;
         margin-top: 19.7%;
+    }
+
+    .talleres2 img {
+        padding: 3em 3em;
+    }
+
+    .talleres4 img {
+        padding: 3em 3em;
     }
 
 
