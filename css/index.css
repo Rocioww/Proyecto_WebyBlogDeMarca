@@ -168,13 +168,21 @@ nav a {
 }
 
 .botonchistmas a {
-    color: white !important;
     font-size: 1.7em;
+    color: white;
+
 }
 
 .botonchistmas:hover {
     transform: scale(1.06);
+    background-color: white;
+
 }
+
+.botonchistmas >a:hover {
+    color: #0929CF !important;
+}
+
 
 #bestsellers {
     padding: 2em 4em;
@@ -228,7 +236,7 @@ nav a {
 
 .cuadro>.productImage {
     max-width: 100%;
-height:auto;
+    height: 17em;
     object-fit: contain;
     transform: translate(0em, -5em);
     margin-bottom: -9em;

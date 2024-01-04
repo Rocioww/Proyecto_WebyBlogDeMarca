@@ -164,9 +164,7 @@ nav a {
 .cuadro{
     width: 100%;
     border: 2px solid #0929D0;
-
     background-color: rgba(199, 208, 255, 0.35);
-
     height: 21em;
     border-radius: 20px;
     display: flex;
@@ -183,7 +181,7 @@ nav a {
 .cuadro>.shoppingUtil>img {
     display: flex;
     justify-content: space-between;
-align-items: right;
+    align-items: right;
     width: auto;
     max-height: 2.5em;
     object-fit: contain;
@@ -194,12 +192,10 @@ align-items: right;
 .cuadro>.productImage {
     display:flex;
     max-width: 100%;
-    height: 17em;
     object-fit: contain;
     transform: translate(0em, -5em);
     margin-bottom: -6em;
- 
-justify-content: center;
+    justify-content: center;
 
 }
 
@@ -551,6 +547,23 @@ form input[type="checkbox"] {
 }
 
 
+@media screen and (max-width: 1600px) {
+
+.cuadro>.productImage {
+    height: 17em;
+}
+
+}
+
+@media screen and (max-width: 1300px) {
+
+.producto {
+    margin: 2em 0.5em;
+}
+
+}
+  
+
 @media screen and (max-width: 768px) {
     header {
         flex-direction: column;
@@ -558,10 +571,7 @@ form input[type="checkbox"] {
         flex-direction: column-reverse;
         padding-bottom: 0;
     }
-
  
-
-    
 
     #menu {
         margin-top: 0;
@@ -622,7 +632,7 @@ form input[type="checkbox"] {
         font-size: 2em;
       }
 
-      
+
     footer {
         flex-direction: column;
         text-align: center;
@@ -658,11 +668,53 @@ form input[type="checkbox"] {
     .producto{
         max-width: 100%;
     }
-    .cuadro{
-        height: 16em;
-      
+    .cuadro>.productImage {
+        height: 100%;
+    }
+
+    .cuadro {
+        height: 15em;
+    }
+
+    .producto {
+        margin: 1em 0.5em;
     }
 }
+
+
+@media screen and (max-width: 580px) {
+    .cuadro>.productImage {
+        height: 100% !important;
+        transform: none;
+    }
+    
+    }
+
+
+@media screen and (max-width: 576px) {
+.cuadro>.productImage {
+    height: 100% !important;
+}
+}
+
+
+
+@media screen and (max-width: 570px) {
+        .cuadro>.productImage {
+            height: 100% !important;
+     
+        }
+
+        
+        }
+    
+
+ @media screen and (max-width: 470px) {
+    .cuadro>.productImage {
+        transform: translate(0em, -5em);
+        }
+    }
+
 
 @media screen and (max-width: 480px) {
     #fotoheader > div > h1{
@@ -676,9 +728,7 @@ form input[type="checkbox"] {
         
         
     }
-    .cuadro{
-        height: auto;
-    }
+
 
     .footer-left,
     .footer-center,
