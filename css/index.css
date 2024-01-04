@@ -608,7 +608,14 @@ button,
 .galeriatienda {
     display: flex;
     flex-direction: row;
+    padding: 0em 10em;
 }
+
+.mapcol{
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
 
 .img-fluid {
     max-width: 90% !important;
@@ -618,6 +625,8 @@ button,
 
 .mapinfo{
     padding: 0.5em 1.3em;
+    padding-right: 0;
+    max-width: 85%;
 }
 
 .fa-location-dot {
@@ -897,6 +906,7 @@ form input[type="checkbox"] {
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+/* MEDIA QUERIES  */
 
 @media screen and (max-width: 768px) {
     header {
@@ -1077,6 +1087,60 @@ form input[type="checkbox"] {
       var(--tw-ring-shadow, 0 0 rgba(0, 0, 0, 0)), var(--tw-shadow);
   }
 
+
+  /* MEDIA QUERIES  */
+
+  @media (max-width: 1680px) {
+    #christmas>h1 {}
+    #christmas>h3 {
+        margin-left: 104.2%;
+    }
+    .botonchistmas {
+        margin-left: 60%;
+    }
+    .galeriatienda {
+        padding: 0em 7em;
+    }
+}
+
+  @media (max-width: 1530px) {
+    .galeriatienda {
+        padding: 0em 3em;
+    }
+
+}
+
+@media (max-width: 1500px) {
+    #christmas>h3 {
+        margin-left: 103%;
+        margin-top: 11.5%;
+    }
+    .botonchistmas {
+        margin-left: 59%;
+    }
+}
+
+@media (max-width: 1400px) {
+    #christmas>h3 {
+        margin-left: 102%;
+    }
+
+    .profileinfo > h6 {
+        font-size: 1em !important;
+        min-width: 100%;
+    }
+    .fa-location-dot {
+        font-size: 1.5em;
+     }
+     .mapa > a:last-child{
+        font-size: 1em;
+        padding-left: 0.5em;
+     }
+
+}
+
+
+
   @media (max-width: 1170px){
 
     .title-service p {
@@ -1092,94 +1156,535 @@ form input[type="checkbox"] {
     padding-bottom: 0em; 
     font-size: 1.1em;
   }
+
+  #christmas>h1 {
+   
+    font-size: 3.5em;
+}
+#christmas>h3 {
+    font-size: 1.6em;
+    margin-left: 97%;
+
+}
+
+  .galeriatienda {
+    padding: 0em 1em;
+}
   
   }
   
   
-  @media (max-width: 990px){
-  
-    .services1, .services2{
-      flex-direction: column !important;
+  @media (max-width: 990px) {
+    .services1,
+    .services2 {
+        flex-direction: column !important;
     }
-  
-    .title-service h1, .title-service2 h1 {
-      font-size: 5em !important;
+    .title-service h1,
+    .title-service2 h1 {
+        font-size: 5em !important;
     }
-  
     .title-service p {
-    padding-bottom: 1em;
-    font-size: 1.3em;
-    padding-right: 0em;
+        padding-bottom: 1em;
+        font-size: 1.3em;
+        padding-right: 0em;
     }
-  
     .title-service2 p {
-    padding-bottom: 1em;
-    font-size: 1.3em;
-    padding-right: 0em;
+        padding-bottom: 1em;
+        font-size: 1.3em;
+        padding-right: 0em;
     }
-  
-  }
-  
-  @media (max-width: 690px) {
-  
-    .title-service h1, .title-service2 h1 {
-      font-size: 4em !important;
+    #christmas>h1 {
+   
+        font-size: 3.5em;
     }
+    #christmas>h3 {
+        font-size: 1.6em;
+        margin-left: 92%;
+
+    }
+    .galeriatienda {
+        padding: 0;
+    }
+
+}
   
+@media (max-width: 920px) {
+    #christmas>h1 {
+        -webkit-text-stroke: 1.5px white;
+        font-size: 2.4em;
+    }
+    #christmas>h3 {
+        font-size: 1.2em;
+        margin-left: 97%;
+    }
+    .botonchistmas a {
+  
+        font-size: 1.1em;
+    }
+    .botonchistmas {
+        margin-left: 54%;
+        margin-top: 21%;
+    }
+
+    .mapcol {
+        padding: 0.5em 0.4em;
+
+    }
+
+    #tiendas{
+        padding: 2em 2.2em;
+        padding-top: 2em;
+    }
+}
+@media (max-width: 810px) {
+
+    #christmas>h1 {
+        -webkit-text-stroke: 1.5px white;
+        font-size: 2.4em;
+    }
+    #christmas>h3 {
+        font-size: 1.2em;
+        margin-left: 95%;
+        margin-left: 93.5%;
+    }
+    .botonchistmas a {
+
+        font-size: 1.1em;
+    }
+    .botonchistmas {
+        margin-left: 52%;
+        margin-top: 21%;
+    }
+}
+
+@media (max-width: 810px) {
+    .galeriatienda {
+        flex-direction: column;
+
+    #christmas>h3 {
+        margin-left: 93.5%;
+    }
+    #tiendas{
+        padding: 3em 12em;
+        padding-top: 2em;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: stretch;
+        flex-direction: column-reverse;
+        padding-bottom: 0;
+    }
+    #menu {
+        margin-top: 0;
+    }
+    .logo {
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    nav {
+        order: -1;
+        margin-top: 10px;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    nav li {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .menu-toggle {
+        display: block;
+        position: sticky;
+        padding: 0.1em;
+    }
+    #menu {
+        flex-direction: column;
+        align-items: stretch;
+        display: none;
+    }
+    #menu.show {
+        display: flex;
+    }
+    #menu ul {
+        flex-direction: column;
+        align-items: stretch;
+        text-align: center;
+    }
+    #menu li {
+        margin: 1em;
+    }
+    #menu li:last-child {
+        margin-bottom: 1.8em;
+    }
+    #fotoheader>h1 {
+        font-size: 3.6em;
+    }
+
+    #tiendas{
+        padding: 3em 10em;
+        padding-top: 2em;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .footer-right {
+        text-align: center;
+        align-items: center;
+    }
+    .contact-info>h2:first-child {
+        margin-top: 1.5em;
+    }
+    .footer-center>p {
+        padding: 0 7em 0 7em;
+    }
+    .social-icons>a:first-child {
+        margin-left: 0;
+    }
+    .footer-right {
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 690px) {
+ 
+    .title-service h1,
+    .title-service2 h1 {
+        font-size: 4em !important;
+    }
     .title-service p {
-    padding-bottom: 1em;
-    font-size: 1.1em;
+        padding-bottom: 1em;
+        font-size: 1.1em;
     }
-  
     .title-service2 p {
-    padding-bottom: 1em;
-    font-size: 1.1em;
+        padding-bottom: 1em;
+        font-size: 1.1em;
     }
-  
-  
-  }
-  
-  @media (max-width: 550px) {
-  
-    .title-service h1, .title-service2 h1 {
-      font-size: 3em !important;
+    #christmas>h1 {
+        -webkit-text-stroke: 1.5px white;
+        font-size: 2.4em;
     }
-  
+    #christmas>h3 {
+        font-size: 1.2em;
+        margin-left: 93%;
+    }
+    .botonchistmas a {
+        font-size: 1.1em;
+    }
+    .botonchistmas {
+        margin-left: 52%;
+        margin-top: 21%;
+    }
+
+    #tiendas{
+        padding: 3em 8em;
+        padding-top: 2em;
+    }
+
+}
+
+@media (max-width: 650px) {
+    #christmas>h1 {
+        -webkit-text-stroke: 1.1px white;
+        font-size: 2.1em;
+        margin-top: 15%;
+    }
+    #christmas>h3 {
+        font-size: 1.1em;
+        margin-left: 93%;
+        margin-top: 9%;    }
+    .botonchistmas {
+        margin-left: 51%;
+        margin-top: 19.7%;
+    }
+}
+@media (max-width: 580px) {
+    #fotoheader>h1 {
+        font-size: 3em;
+    }
+    #christmas>h1 {
+        -webkit-text-stroke: 1px white;
+        font-size: 1.8em;
+        margin-top: 15%;
+    }
+    #christmas>h3 {
+        font-size: 1em;
+        margin-left: 92%;
+        margin-top: 9%;    
+    }
+
+
+    .botonchistmas {
+        margin-left: 49%;
+        margin-top: 19.7%;
+    }
+
+    #tiendas{
+        padding: 3em 8em;
+        padding-top: 2em;
+    }
+}
+
+@media (max-width: 550px) {
+ 
+    .title-service h1,
+    .title-service2 h1 {
+        font-size: 3em !important;
+    }
     .title-service p {
-    padding-bottom: 0.5em;
-    font-size: 1em;
+        padding-bottom: 0.5em;
+        font-size: 1em;
     }
-  
     .title-service2 p {
-    padding-bottom: 0.5em;
-    font-size: 1em;
+        padding-bottom: 0.5em;
+        font-size: 1em;
     }
-  
     #colecciones {
-      padding: 2em 3em;
-      padding-top: 2em; 
-  }
-  
-  
-  }
-  
-  @media (max-width: 505px) {
-  
-    .title-service h1, .title-service2 h1 {
-      font-size: 2em !important;
+        padding: 2em 3em;
+        padding-top: 2em;
     }
-  
+
+    #tiendas{
+        padding: 3em 6em;
+        padding-top: 2em;
+    }
+
+
+}
+@media (max-width: 505px) {
+    .title-service h1,
+    .title-service2 h1 {
+        font-size: 2em !important;
+    }
     .title-service p {
-    padding-bottom: 0.5em;
-    font-size: 0.8em;
+        padding-bottom: 0.5em;
+        font-size: 0.8em;
     }
-  
     .title-service2 p {
-    padding-bottom: 0.5em;
-    font-size: 0.8em;
+        padding-bottom: 0.5em;
+        font-size: 0.8em;
     }
-  
-  
-  }
+    #christmas>h1 {
+        -webkit-text-stroke: 1px white;
+        font-size: 1.5em;
+        margin-top: 15%;
+    }
+    #christmas>h3 {
+        font-size: 0.85em;
+        margin-left: 92.2%;
+        margin-top: 9%;    
+    }
+    .botonchistmas {
+        margin-left: 47%;
+        margin-top: 19.7%;
+    }
+}
+@media screen and (max-width: 480px) {
+    #christmas>h1 {
+        -webkit-text-stroke: 1px white;
+        font-size: 1.5em;
+        margin-top: 15%;
+    }
+    #christmas>h3 {
+        font-size: 0.85em;
+        margin-left: 92%;
+        margin-top: 9%;    
+    }
+    .botonchistmas {
+        margin-left: 47%;
+        margin-top: 19.7%;
+    }
 
+    #tiendas{
+        padding: 3em 4em;
+        padding-top: 1.7em;
+    }
 
+    .footer-left,
+    .footer-center,
+    .footer-right {
+        flex: 1;
+        margin-bottom: 20px;
+    }
+    .footer-center h2 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .footer-center p {
+        font-size: 13px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    form {
+        width: 100%;
+    }
+    form input,
+    form button {
+        width: calc(100% - 30px);
+        margin-left: 15px;
+    }
+    .social-icons {
+        text-align: center;
+    }
+    .social-icons a:last-child {
+        margin-right: 0px;
+    }
+    .footer-bottom {
+        font-size: 12px;
+    }
+    form {
+        text-align: left;
+    }
+    #checkbox {
+        max-width: 20%;
+        text-align: left;
+        font-size: 6px;
+    }
+    .footer-center>p {
+        padding: 0 2em 0 2em;
+    }
+}
+@media screen and (max-width: 470px) {
+    #christmas>h3 {
+        margin-left: 90%;
+    }
+}
+@media screen and (max-width: 460px) {
+    #christmas>h3 {
+        margin-left: 90%;
+    }
+    #christmas>h1 {
+        margin-top: 14%;
+    }
+    #christmas>h3 {
+    
+        margin-top: 8%;    
+    }
+    .botonchistmas {
+        margin-left: 46%;
+        margin-top: 19%;
+    }
+}
+@media screen and (max-width: 430px) {
+    #christmas>h3 {
+        margin-left: 88%;
+    }
+    .botonchistmas {
+        margin-left: 45%;
+       
+    }
+    .botonchistmas {
+        margin-left: 45%;
+    }
+}
+@media screen and (max-width: 400px) {
+    #christmas>h1 {
+        -webkit-text-stroke: 0.8px white;
+        font-size: 1.4em;
+        margin-top: 14%;
+    }
+    #christmas>h3 {
+        font-size: 0.8em;
+        margin-top: 8%;    
+    }
+    .botonchistmas {
+        margin-left: 43%;
+        margin-top: 19%;
+    }
+    .botonchistmas a {
+        font-size: 1em;
+    }
+
+    #tiendas{
+        padding: 3em 2.5em;
+        padding-top: 1.7em;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    #fotoheader>h1 {
+        font-size: 2em;
+    }
+    #christmas>h1 {
+        -webkit-text-stroke: 0.75px white;
+        font-size: 1.2em;
+    }
+    #christmas>h3 {
+        font-size: 0.7em;
+        margin-left: 90.3%;
+     
+    }
+    .botonchistmas {
+        margin-left: 45%;
+        padding: 0.3rem 1rem
+    }
+    
+    .botonchistmas a {
+        font-size: 1em;
+    }
+}
+@media screen and (max-width: 370px) {
+    #christmas>h3 {
+        margin-left: 90%;
+    }
+}
+@media screen and (max-width: 360px) {
+    #christmas>h3 {
+        margin-left: 88.5%;
+    }
+
+    #tiendas{
+        padding: 3em 2em;
+        padding-top: 1.7em;
+    }
+
+}
+
+@media screen and (max-width: 340px) {
+    #christmas>h3 {
+        margin-left: 87%;
+    }
+    .botonchistmas {
+        margin-left: 45%;
+    }
+}
+@media screen and (max-width: 330px) {
+    #christmas>h1 {
+        -webkit-text-stroke: 0.75px white;
+        font-size: 1.08em;
+    }
+    #christmas>h3 {
+        font-size: 0.7em;
+        margin-left: 86%;
+     
+    }
+    .botonchistmas {
+        margin-left: 44%;
+    }
+    
+    .botonchistmas a {
+        font-size: 1em;
+    }
+}
+@media screen and (max-width: 320px) {
+    #christmas>h3 {
+        font-size: 0.7em;
+        margin-left: 83%;
+
+    }
+
+    .mapinfo {
+        padding: 0.5em 1em;
+        padding-right: 0;
+
+    }
+
+}
