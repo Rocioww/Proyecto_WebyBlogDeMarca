@@ -562,7 +562,12 @@ form input[type="checkbox"] {
 }
 
 }
-  
+
+@media screen and (max-width: 1300px) {
+.cuadro {
+    height: 14em;
+}
+}
 
 @media screen and (max-width: 768px) {
     header {
@@ -702,10 +707,8 @@ form input[type="checkbox"] {
 @media screen and (max-width: 570px) {
         .cuadro>.productImage {
             height: 100% !important;
-     
         }
 
-        
         }
     
 
