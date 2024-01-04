@@ -1586,6 +1586,7 @@ form input[type="checkbox"] {
         margin-bottom: 10px;
         display: flex;
         justify-content: space-between;
+        min-width: 100%;
     }
 
     nav {
@@ -1780,6 +1781,11 @@ form input[type="checkbox"] {
 }
 
 @media (max-width: 550px) {
+
+    .logo {
+        min-width: none;
+        width: 370px;
+    }
  
 
     .title-service h1,
@@ -2019,6 +2025,11 @@ form input[type="checkbox"] {
 }
 
 @media screen and (max-width: 400px) {
+
+    .logo {
+        min-width: none;
+        width: 200px;
+    }
     #christmas>h1 {
         -webkit-text-stroke: 0.8px white;
         font-size: 1.4em;
