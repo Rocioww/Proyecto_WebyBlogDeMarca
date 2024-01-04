@@ -164,7 +164,7 @@ nav a {
     transition: all 0.35s;
     position: absolute;
     margin-top: 20%;
-    margin-left: 61.5%;
+    margin-left: 57%;
 }
 
 .botonchistmas a {
@@ -1319,7 +1319,7 @@ form input[type="checkbox"] {
         margin-top: 11.5%;
     }
     .botonchistmas {
-        margin-left: 59%;
+        margin-left: 56%;
     }
 }
 
@@ -1373,7 +1373,7 @@ form input[type="checkbox"] {
         margin-top: 11%;
     }
     .botonchistmas {
-        margin-left: 56%;
+        margin-left: 55%;
     }
 }
 
@@ -1395,7 +1395,7 @@ form input[type="checkbox"] {
         margin-top: 10.2%;
     }
     .botonchistmas {
-        margin-left: 54%;
+        margin-left: 52%;
         margin-top: 21%;
     }
 }
@@ -1461,6 +1461,18 @@ form input[type="checkbox"] {
     .talleres4 img {
         padding: 2em 2em;
         background-color: #0929CF;
+    }
+
+}
+
+@media (max-width: 1080px) {
+
+    .botonchistmas a {
+        font-size: 1.4em;
+    }
+
+    .botonchistmas {
+        margin-left: 54%;
     }
 
 }
@@ -1544,6 +1556,7 @@ form input[type="checkbox"] {
         padding-top: 2em;
     }
 }
+
 @media (max-width: 810px) {
 
     #christmas>h1 {
@@ -1745,15 +1758,36 @@ form input[type="checkbox"] {
 
 }
 
+@media (max-width: 937px) {
+
+    .botonchistmas a {
+        font-size: 0.9em;
+    }
+
+    .botonchistmas {
+        margin-left: 54%;
+    }
+
+}
+
+@media (max-width: 780px) {
+
+    .botonchistmas {
+        margin-left: 51%;
+    }
+
+}
+
+
 @media (max-width: 608px) {
 
-.talleres1 {
-    align-items: flex-start;
-}
+    .talleres1 {
+        align-items: flex-start;
+    }
 
-.talleres3 {
-    align-items: flex-start;
-}
+    .talleres3 {
+        align-items: flex-start;
+    }
 
 }
 
@@ -1826,6 +1860,10 @@ form input[type="checkbox"] {
 
     .talleres4 img {
         padding: 0em 0em;
+    }
+
+    .botonchistmas a {
+        font-size: 0.8em;
     }
 
 }
@@ -2049,10 +2087,7 @@ form input[type="checkbox"] {
 
     .botonchistmas {
         margin-left: 43%;
-        margin-top: 19%;
-    }
-    .botonchistmas a {
-        font-size: 1em;
+        margin-top: 20%;
     }
 
     #tiendas{
