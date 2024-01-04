@@ -201,9 +201,8 @@ nav a {
 .cuadro {
     width: 100%;
     border: 2px solid #0929D0;
-
     background-color: rgba(199, 208, 255, 0.35);
-flex-direction: row-reverse;
+    flex-direction: row-reverse;
     height: 20em;
     border-radius: 20px;
     display: flex;
@@ -229,7 +228,7 @@ flex-direction: row-reverse;
 
 .cuadro>.productImage {
     max-width: 100%;
-    height: 17em;
+height:auto;
     object-fit: contain;
     transform: translate(0em, -5em);
     margin-bottom: -9em;
@@ -1586,6 +1585,7 @@ form input[type="checkbox"] {
         margin-bottom: 10px;
         display: flex;
         justify-content: space-between;
+        min-width: 100%;
     }
 
     nav {
@@ -1780,6 +1780,11 @@ form input[type="checkbox"] {
 }
 
 @media (max-width: 550px) {
+
+    .logo {
+        min-width: none;
+        width: 370px;
+    }
  
 
     .title-service h1,
@@ -2019,6 +2024,11 @@ form input[type="checkbox"] {
 }
 
 @media screen and (max-width: 400px) {
+
+    .logo {
+        min-width: none;
+        width: 200px;
+    }
     #christmas>h1 {
         -webkit-text-stroke: 0.8px white;
         font-size: 1.4em;
