@@ -1065,9 +1065,32 @@ form input[type="checkbox"] {
 
 
 @media screen and (max-width: 576px) {
-.cuadro>.productImage {
-    height: 100% !important;
+
+    .cuadro>.productImage {
+        height: 100% !important;
+    }
 }
+        
+
+@media screen and (max-width: 574px) {
+    .cuadro1>.productImage {
+        transform: translate(1em, 1em);
+    }
+    .cuadro2>.productImage {
+        transform: translate(1em, 1em);
+    }
+    .cuadro3>.productImage {
+        transform: translate(1em, 1em);
+    }
+    .cuadro4>.productImage {
+        transform: translate(1em, 1em);
+    }
+    .cuadro5>.productImage {
+        transform: translate(1em, 1em);
+    }
+    .cuadro6>.productImage {
+        transform: translate(1em, 1em);
+    }
 }
 
 
@@ -1079,6 +1102,28 @@ form input[type="checkbox"] {
 
         }
     
+
+@media screen and (max-width: 481px) {
+
+    .cuadro1>.productImage {
+        transform: translate(0em, -4em);
+    }
+    .cuadro2>.productImage {
+        transform: translate(0em, -4em);
+    }
+    .cuadro3>.productImage {
+        transform: translate(0em, -4em);
+    }
+    .cuadro4>.productImage {
+        transform: translate(0em, -4em);
+    }
+    .cuadro5>.productImage {
+        transform: translate(0em, -4em);
+    }
+    .cuadro6>.productImage {
+        transform: translate(0em, -4em);
+    }
+}
 
  @media screen and (max-width: 470px) {
     .cuadro>.productImage {
